@@ -3,7 +3,7 @@ const mqtt = require("mqtt");
 var mqttClient;
 
 // Change this to point to your MQTT broker or DNS name
-const mqttHost = "test.mosquitto.org";
+const mqttHost = "20.94.48.145";
 const protocol = "mqtt";
 const port = "1883";
 
@@ -56,4 +56,4 @@ function publishMessage(topic, message) {
 
 connectToBroker();
 
-publishMessage("temperature", "32")
+publishMessage("temperature", "31")

@@ -19,7 +19,7 @@ function connectToBroker() {
   const clientId = "client" + Math.random().toString(36).substring(7);
 
   // Change this to point to your MQTT broker
-  const host = "ws://broker.hivemq.com:1883";
+  const host = "ws://20.94.48.145:9001";
 
   const options = {
     keepalive: 60,

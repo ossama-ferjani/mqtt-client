@@ -1,7 +1,7 @@
 const mqttService = require("../service/mqttService");
 
 // Change this to point to your MQTT broker
-const MQTT_HOST_NAME = "mqtt://broker.hivemq.com:1883";
+const MQTT_HOST_NAME = "mqtt://20.94.48.145:1883";
 
 var mqttClient = new mqttService(MQTT_HOST_NAME);
 mqttClient.connect();
